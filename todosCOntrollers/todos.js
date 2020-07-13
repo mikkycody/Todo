@@ -1,4 +1,6 @@
 import db from '../db/db.js';
+import models from '../models';
+
 
 class TodosController{
     getAllTodos(req, res){
